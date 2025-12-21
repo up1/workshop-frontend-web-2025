@@ -60,6 +60,12 @@ Configure tsconfig.json
 
 Create file `src/example.ts`
 ```
+/**
+ * Adds two numbers together.
+ * @param a 
+ * @param b 
+ * @returns 
+ */
 const add = (a: number, b: number): number => {
   return a + b;
 };
