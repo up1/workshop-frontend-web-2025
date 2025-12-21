@@ -59,6 +59,7 @@ Configure tsconfig.json
 ```
 
 Create file `src/example.ts`
+* Add [TSDoc](https://github.com/microsoft/tsdoc)
 ```
 /**
  * Adds two numbers together.
