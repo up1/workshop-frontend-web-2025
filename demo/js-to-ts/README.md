@@ -19,3 +19,5 @@ const add2 = (a, b) => a + b;
 // Exporting both functions
 module.exports = { add1, add2 };
 ```
+
+
