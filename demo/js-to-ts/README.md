@@ -34,3 +34,48 @@ function add1(a, b) {
   return a + b;
 }
 ```
+
+## 3. Migrate to TypeScript
+
+Install TypeScript 
+```
+$npm install --save-dev typescript
+```
+
+Install Type Definitions for Libraries
+```
+$npm install --save-dev @types/node @types/react @types/react-dom
+```
+
+Create a tsconfig.json file
+```
+$npx tsc --init
+```
+
+Configure tsconfig.json
+```
+"rootDir": "./src",
+"outDir": "./dist",
+```
+
+Create file `src/example.ts`
+```
+const add = (a: number, b: number): number => {
+  return a + b;
+};
+
+// Exporting the function
+export { add };
+
+// Example usage
+console.log(add(2, 3)); // Output: 5
+```
+
+Build and Run
+```
+$npm run build
+$npm run start
+```
+
+
+
