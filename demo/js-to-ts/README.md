@@ -20,4 +20,16 @@ const add2 = (a, b) => a + b;
 module.exports = { add1, add2 };
 ```
 
-
+## 2. Add [JSDoc](https://jsdoc.app/) in project
+```
+/**
+ * Adds two numbers together.
+ *
+ * @param {number} a - The first number.
+ * @param {number} b - The second number.
+ * @returns {number} The sum of the two numbers.
+ */
+function add1(a, b) {
+  return a + b;
+}
+```
