@@ -21,6 +21,7 @@ module.exports = { add1, add2 };
 ```
 
 ## 2. Add [JSDoc](https://jsdoc.app/) in project
+* Easy to read in IDE/Editor
 ```
 /**
  * Adds two numbers together.
