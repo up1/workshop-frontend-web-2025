@@ -1,0 +1,6 @@
+projectKey=demo01
+serverUrl=http://178.128.126.35:9000
+serverVersion=25.12.0.117093
+dashboardUrl=http://178.128.126.35:9000/dashboard?id=demo01
+ceTaskId=86de3582-ed9b-43ef-820a-a8cd938c2752
+ceTaskUrl=http://178.128.126.35:9000/api/ce/task?id=86de3582-ed9b-43ef-820a-a8cd938c2752

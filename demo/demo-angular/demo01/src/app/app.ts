@@ -1,6 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+/**
+ * Root component
+ * @class App
+ * @description The root component of the application.
+ */
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
@@ -8,5 +12,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('demo01');
+// Signal property
+// dfsdsd
+  protected readonly title = signal('demo01'); // NOSONAR
 }
