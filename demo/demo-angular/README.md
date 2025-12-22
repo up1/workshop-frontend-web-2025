@@ -13,3 +13,10 @@ $cd demo02
 $npm install --global @cyclonedx/cyclonedx-npm
 $cyclonedx-npm --output-format JSON --output-file sbom.json
 ```
+
+
+## Scan with sonarQube
+* https://www.npmjs.com/package/sonarqube-scanner
+```
+$npx @sonar/scan
+```
